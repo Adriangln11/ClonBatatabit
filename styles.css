@@ -300,7 +300,7 @@ main{
     text-align: center;
     width: 32rem;
     height: 40rem;
-    background-image: url("./assets/images/bitcoinbaby.jpg");
+    background-image: url("./assets/images/bitcoinbaby.svg");
     background-position: cover;
     background-repeat:no-repeat;
     background-size:cover;
