@@ -71,7 +71,7 @@ header img{
     width: 1.4rem;
     height: .8rem;
     margin-left: 1rem;
-    background-image: url('./assets/icons/arrow-down.svg');
+    background-image: url('assets/icons/arrow-down.svg');
 }
 
 /* BITCOIN/TABLE SECTION*/
