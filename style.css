@@ -227,7 +227,11 @@ main{
     position: relative;
     top: 6rem;
     width: 4rem;
+<<<<<<< HEAD
     height: 2.4rem;
+=======
+    height: 2.5rem;
+>>>>>>> ce32f8c49f43d8ee048e9b1070f06ada8f9a914a
     background-image: url("./assets/icons/batata.svg");
 }
 
@@ -327,7 +331,16 @@ main{
     height: 20rem;
     justify-content: center;
     text-align: center;
+<<<<<<< HEAD
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+=======
+    width: 32rem;
+    height: 40rem;
+    background-image: url("./assets/images/bitcoinbaby.svg");
+    background-position: cover;
+    background-repeat:no-repeat;
+    background-size:cover;
+>>>>>>> ce32f8c49f43d8ee048e9b1070f06ada8f9a914a
     color: #FFFFFF;
     font-size: 2.4rem;
     font-weight: 700;
