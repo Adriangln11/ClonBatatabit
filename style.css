@@ -71,7 +71,7 @@ header img{
     width: 1.4rem;
     height: .8rem;
     margin-left: 1rem;
-    background-image: url('../MobileFirst/assets/icons/arrow-down.svg');
+    background-image: url('./assets/icons/arrow-down.svg');
 }
 
 /* BITCOIN/TABLE SECTION*/
@@ -91,7 +91,7 @@ main{
     width: 20rem;
     height: 20rem;
     margin: 3rem auto;
-    background-image: url('../MobileFirst/assets/images/bitcoin.svg');
+    background-image: url('./assets/images/bitcoin.svg');
     background-size: cover;
     background-repeat: no repeat;
     background-position: contain;
@@ -123,10 +123,18 @@ main{
     line-height: 2rem;
    
 }
+.title-table-comisions{
+    color: #1A9AF7;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
 .main-section-table div{
+    width: 20rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 1rem;
+    margin: 1rem auto;
 }
 .main-section-table td{
     padding: 1rem 1rem;
@@ -157,7 +165,7 @@ main{
     display: inline-block;
     width: 1.4rem;
     height: 1.5rem;
-    background-image: url("../MobileFirst/assets/icons/trending-down.svg");
+    background-image: url("./assets/icons/trending-down.svg");
     background-position: cover;
     background-repeat: no repeat;
     background-size: contain;
@@ -166,7 +174,7 @@ main{
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background-image: url("../MobileFirst/assets/icons/trending-up.svg");
+    background-image: url("./assets/icons/trending-up.svg");
     background-position: cover;
     background-repeat: no repeat;
     background-size: contain;
@@ -191,6 +199,27 @@ main{
     line-height: 1.5rem;
     font-weight: 500;
 }
+.date-update-comisions span{
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    
+}
+.date-update-comisions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem auto;
+    width: 18rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: #E7F5FF;
+    font-family: Inter;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
 .potato-icon{
     display: flex;
     justify-content: center;
@@ -198,8 +227,8 @@ main{
     position: relative;
     top: 6rem;
     width: 4rem;
-    height: 2.5rem;
-    background-image: url("../MobileFirst/assets/icons/batata.svg");
+    height: 2.4rem;
+    background-image: url("./assets/icons/batata.svg");
 }
 
 /* BLACK/CARDS SECTION */
@@ -254,7 +283,7 @@ main{
 .icon-clock{
     width: 2.4rem;
     height: 2.4rem;
-    background-image: url("../MobileFirst/assets/icons/clock1.svg");
+    background-image: url("./assets/icons/clock1.svg");
     display: block;
     background-position: cover;
     background-repeat: no repeat;
@@ -263,7 +292,7 @@ main{
 .icon-eye{
     width: 2.4rem;
     height: 2.4rem;
-    background-image: url("../MobileFirst/assets/icons/eye1.svg");
+    background-image: url("./assets/icons/eye1.svg");
     display: block;
     background-position: cover;
     background-repeat: no repeat;
@@ -272,7 +301,7 @@ main{
 .icon-dll{
     width: 2.4rem;
     height: 2.4rem;
-    background-image: url("../MobileFirst/assets/icons/dollar-sign1.svg");
+    background-image: url("./assets/icons/dollar-sign1.svg");
     display: block;
     background-position: cover;
     background-repeat: no repeat;
@@ -281,7 +310,7 @@ main{
 .icon-check{
     width: 2.4rem;
     height: 2.4rem;
-    background-image: url("../MobileFirst/assets/icons/check-circle1.svg");
+    background-image: url("./assets/icons/check-circle1.svg");
     display: block;
     background-position: cover;
     background-repeat: no repeat;
@@ -295,22 +324,20 @@ main{
     background-color: #E5E5E5;
     display: flex;
     width: 100%;
-    height: 40rem;
+    height: 20rem;
     justify-content: center;
-}
-.background-img{
     text-align: center;
-    width: 32rem;
-    height: 40rem;
-    background-image: url("../MobileFirst/assets/images/bitcoinbaby.jpg");
-    background-position: cover;
-    background-repeat:no-repeat;
-    background-size:cover;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
     color: #FFFFFF;
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.6rem;
     padding-top: 5rem;
+}
+.section-babybitcoin img{
+    width: 20rem;
+    height: 2.5rem;
+    margin: 5rem auto;
 }
 
 /* SECTION PRICES */
@@ -349,13 +376,21 @@ h4{
     position: relative;
     bottom: 1.5rem;
 }
+.cards-slider{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .prices-container{
     width: 19rem;
-    height: 24rem;
+    height: 23rem;
     background-color: #FFFFFF;
     border-radius: .8rem;
-    margin: 5rem auto;
+    margin: 5rem 3.5rem;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    scroll-snap-align: center;
+    
 }
 .name-sub{
     font-size: 1.4rem;
@@ -399,13 +434,16 @@ h4{
 .icon-button-price{
     width: 2rem;
     height: 2rem;
-    background-image: url("../MobileFirst/assets/icons/arrow-right-orange.svg");
+    background-image: url("./assets/icons/arrow-right-orange.svg");
     position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }
 footer{
     width: 100%;
-    height: auto;
+    height: 10rem;
     background-color: #F7931A;
     display: flex;
     justify-content: space-evenly;

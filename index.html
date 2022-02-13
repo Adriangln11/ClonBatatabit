@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
     <!-- STYLES -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 700px)">
 </head>
 <body>
 <!-- HEADER -->
@@ -25,6 +26,8 @@
         
 <!-- MAIN -->
     <main>
+
+        <!-- Exchange section -->
         <section class="main-exchange-container">
             <div class="main-background-img"></div>
             <div class="main-exchange-container-title">
@@ -32,74 +35,130 @@
                 <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
             </div>
             <section class="main-section-table">
-                <p class="title-table">Monedas</p>
-                <div class="table">
-                    <table>
-                        <tr>
-                            <td class="border-top-left">Bitcoin</td>
-                             <td class="border-top-right">$1.96 <span class="graphic-low"></span></td>
-                        </tr>
-                         <tr>
-                            <td>Ethereum</td>
-                             <td>$0.07 <span class="graphic-high"></span></td>
-                        </tr>
-                        <tr>
-                             <td>Ripple</td>
-                             <td>$2.15 <span class="graphic-high"></span></td>
-                        </tr>
-                        <tr>
-                            <td class="border-bottom-left">Stellar</td>
-                            <td class="border-bottom-right">$4.96 <span class="graphic-low"></span></td>
-                        </tr>
-                    </table>
-                </div>
-                <p class="date-update"><span>Actualizado:</span>19 Julio 23:45</p>
-                <div class="potato-icon"></div>
+                
+                    <div class="main-currency-table">
+                        <p class="title-table">Monedas</p>
+                        <div class="table">
+                            <table>
+                                <tr>
+                                    <td class="border-top-left">Bitcoin</td>
+                                     <td class="border-top-right">$1.96 <span class="graphic-low"></span></td>
+                                </tr>
+                                 <tr>
+                                    <td>Ethereum</td>
+                                     <td>$0.07 <span class="graphic-high"></span></td>
+                                </tr>
+                                <tr>
+                                     <td>Ripple</td>
+                                     <td>$2.15 <span class="graphic-high"></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="border-bottom-left">Stellar</td>
+                                    <td class="border-bottom-right">$4.96 <span class="graphic-low"></span></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p class="date-update"><span>Actualizado:</span>19 Julio 23:45</p>
+                    </div>
+                    <div>
+                        <p class="title-table-comisions"> Comisiones</p>
+                        <div class="table">
+                            <table>
+                                <tr>
+                                    <td class="border-top-left">Bittrade</td>
+                                     <td class="border-top-right">$12.96 </td>
+                                </tr>
+                                 <tr>
+                                    <td>Bitpreco</td>
+                                     <td>$13.07</td>
+                                </tr>
+                                <tr>
+                                     <td>Novadax</td>
+                                     <td>$13.15 </td>
+                                </tr>
+                                <tr>
+                                    <td class="border-bottom-left">Coinex</td>
+                                    <td class="border-bottom-right">$14.96 </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p class="date-update-comisions"><span>Actualizado:</span>19 Julio 23:45</p>
+                    </div>
+            
+                
             </section>
+            <span class="potato-icon"></span>
         </section>
+
+        <!-- Black section -->
         <section class="black-section">
             <h3>Creamos un producto sin comparación.</h3>
             <p class="h3-p">Confiable y diseñado para su diario.</p>
-            <div class="cards-container">
-                <span class="icon-clock"></span>
-                <p class="title-card">Tiempo real</p>
-                <p class="content-card">Nuestro API toma información minuto a minuto sobre las tasas que mpas determinan el comportamiento.</p>
-            </div>
-            <div class="cards-container">
-                <span class="icon-eye">i</span>
-                <p class="title-card">No hay tasas escondidas</p>
-                <p class="content-card">Ni en la compra o al momento de exit, Batatabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
-            </div>
-            <div class="cards-container">
-                <span class="icon-dll">i</span>
-                <p class="title-card">Compara monedas</p>
-                <p class="content-card">No más rumores, con Batatabit sabás el valor real de cada moneda en el mercado actual.</p>
-            </div>
-            <div class="cards-container">
-                <span class="icon-check">i</span>
-                <p class="title-card">Información confiable</p>
-                <p class="content-card">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+            <div class="black-container">
+                <div class="cards-container">
+                    <span class="icon-clock"></span>
+                    <p class="title-card">Tiempo real</p>
+                    <p class="content-card">Nuestro API toma información minuto a minuto sobre las tasas que mpas determinan el comportamiento.</p>
+                </div>
+                <div class="cards-container">
+                    <span class="icon-eye">i</span>
+                    <p class="title-card">No hay tasas escondidas</p>
+                    <p class="content-card">Ni en la compra o al momento de exit, Batatabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+                </div>
+                <div class="cards-container">
+                    <span class="icon-dll">i</span>
+                    <p class="title-card">Compara monedas</p>
+                    <p class="content-card">No más rumores, con Batatabit sabás el valor real de cada moneda en el mercado actual.</p>
+                </div>
+                <div class="cards-container">
+                    <span class="icon-check">i</span>
+                    <p class="title-card">Información confiable</p>
+                    <p class="content-card">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+                </div>
             </div>
         </section>
+
+        <!-- Section babybitcoin -->
         <section class="section-babybitcoin">
-            <div class="background-img">
+            <div>
                 <p class="background-image-p">Conócelo hoy.</p>
+                <img src="./assets/images/logo.svg" alt="batatabit-logo">
             </div>
-            
         </section>
+
+        <!-- Section prices -->
         <section class="section-prices">
             <h4>Escoge el plan que mejor se ajuste a ti.</h4>
             <p class="p-h4">Cualquier plan te da acceso completo a nuestra plataforma.</p>
             
+            <div class="cards-slider">
+                <div class="prices-container">
+                    <div class="price-container-title">Recomendado</div>
+                    <p class="name-sub">Pago Anual</p>
+                    <p class="number-price"><span class="dll">$</span>99</p>
+                    <p class="advice-price">*Ahorras $129 comparado al plan mensual.</p>
+                    <p class="button-price">Escoger este <span class="icon-button-price"></span></p>
+                </div>
 
-            <div class="prices-container">
-                <div class="price-container-title">Recomendado</div>
-                <p class="name-sub">Pago Anual</p>
-                <p class="number-price"><span class="dll">$</span>99</p>
-                <p class="advice-price">*Ahorras $129 comparado al plan mensual.</p>
-                <p class="button-price">Escoger este <span class="icon-button-price"></span></p>
-            </div>
+                <div class="prices-container">
+                    <div class="price-container-title">Recomendado</div>
+                    <p class="name-sub">Pago Anual</p>
+                    <p class="number-price"><span class="dll">$</span>99</p>
+                    <p class="advice-price">*Ahorras $129 comparado al plan mensual.</p>
+                    <p class="button-price">Escoger este <span class="icon-button-price"></span></p>
+                </div>
+
+                <div class="prices-container">
+                    <div class="price-container-title">Recomendado</div>
+                    <p class="name-sub">Pago Anual</p>
+                    <p class="number-price"><span class="dll">$</span>99</p>
+                    <p class="advice-price">*Ahorras $129 comparado al plan mensual.</p>
+                    <p class="button-price">Escoger este <span class="icon-button-price"></span></p>
+                </div>
+            </div>    
         </section>
+
+        <!-- Footer -->
         <footer>
             <ul>
                 <li>LinkedIn</li>
@@ -111,8 +170,7 @@
         </footer>
     </main>
 
-<!-- FOOTER -->
-    <footer></footer>
+
 
 </body>
 </html>
