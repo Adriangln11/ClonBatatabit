@@ -1,6 +1,4 @@
-.cards-slider{
-    justify-content: center;
-}
+
 .black-section{
     height: 60rem;
 }
@@ -15,3 +13,17 @@
     display: flex;
     margin: 0 auto;
 }
+.section-prices{
+    height: 45rem;
+}
+.price-container-title{
+    width: 10rem;
+    font-size: 1.2rem;
+}
+.prices-container{
+    width: 15rem;
+}
+.cards-slider{
+    justify-content: space-around;
+}
+
